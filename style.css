@@ -1,6 +1,6 @@
 body {
-    background-color: black !important;  /* Черный фон */
-    color: white !important;             /* Белый текст по умолчанию */
+    background-color: #2f2f2f; /* Темно-серый фон */
+    color: white !important;    /* Белый текст по умолчанию */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -13,13 +13,13 @@ body {
 
 #phrase-container {
     font-size: 24px;
-    color: #8a2be2 !important; /* Фиолетовый цвет текста */
+    color: #ffb6c1 !important; /* Нежно-розовый цвет текста */
     padding: 20px;
-    border: 2px solid #8a2be2; /* Фиолетовая рамка */
+    border: 2px solid #ffb6c1; /* Нежно-розовая рамка */
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.1); /* Легкая прозрачность */
+    background-color: rgba(255, 182, 193, 0.1); /* Легкая прозрачность нежно-розового фона */
     max-width: 80%;
-    box-shadow: 0 0 10px rgba(138, 43, 226, 0.5); /* Небольшое свечение */
+    box-shadow: 0 0 10px rgba(255, 182, 193, 0.5); /* Небольшое свечение */
 }
 
 /* Убираем горизонтальный скролл, если он появляется */
