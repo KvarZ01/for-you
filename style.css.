@@ -1,8 +1,22 @@
 body {
     background-color: black;  /* Черный фон */
     color: white;             /* Белый текст */
-    font-family: Arial, sans-serif; /* Шрифт */
-    margin: 0;                /* Убираем отступы */
-    padding: 0;               /* Убираем внутренние отступы */
-    text-align: center;        /* Выравнивание по центру */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Чтобы контент был по центру экрана */
+}
+
+#phrase-container {
+    font-size: 24px;
+    color: #ff69b4; /* Розовый цвет текста */
+    padding: 20px;
+    border: 2px solid #ff69b4;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Легкая прозрачность фона блока */
+    max-width: 80%;
 }
