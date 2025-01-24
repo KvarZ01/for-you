@@ -1,4 +1,8 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: black;  /* Черный фон */
+    color: white;             /* Белый текст */
+    font-family: Arial, sans-serif; /* Шрифт */
+    margin: 0;                /* Убираем отступы */
+    padding: 0;               /* Убираем внутренние отступы */
+    text-align: center;        /* Выравнивание по центру */
 }
